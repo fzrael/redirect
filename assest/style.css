@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'LubalinGraphITCTurner-BoldArabic';
+    src: url(./LubalinGraphITCTurner-BoldArabic.woff) format('woff');
+ }
+body{
+    font-family:'LubalinGraphITCTurner-BoldArabic';
+    background-color:  rgb(34, 34, 34) !important;
+}
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.cf:after{
+    clear:both;
+}
+
+.cf{
+    zoom:1;
+}    
+/* شكل غلاف التصميم */
+
+.search-wrapper {
+    font-family: 'LubalinGraphITCTurner-BoldArabic';
+    font: bold 13px 'lucida sans';
+    width: 450px;
+    margin: 150px auto 50px auto;
+    border-radius: 40px;
+  background: transparent;
+
+}
+
+/* input الكلام الي داخل  */
+
+.search-wrapper input {
+  padding-left: 20px;
+    width: 330px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;   
+    font-family: 'LubalinGraphITCTurner-BoldArabic';
+    font: bold 13px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #fff;
+    border-radius: 40px;
+    border-top-style: none;
+}
+
+.search-wrapper input:focus {
+    font-family: 'LubalinGraphITCTurner-BoldArabic';
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+   color: #999;
+    
+    
+  padding-left: 20px;
+}
+
+.search-wrapper input:-moz-placeholder {
+    
+    color: #999;
+     
+     
+}
+
+.search-wrapper input:-ms-input-placeholder {
+    color: #999;
+     
+     
+  border-style: none;
+}   
+
+/* الأستايل هاذا خاص بالبوتن */
+.search-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font-family: 'LubalinGraphITCTurner-BoldArabic';
+    color: #fff;
+    text-transform: uppercase;
+    background: rgb(59, 65, 87);
+    border-radius: 40px;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}  
+
+/* الكلام الي اخر الصفحة FOOTER */
+.footer-heart{text-align:center;font-family: 'LubalinGraphITCTurner-BoldArabic'; color: #ffffff;}
+
+.footer-heart a{font-family: 'LubalinGraphITCTurner-BoldArabic'; border-bottom: 1px solid #453886;color: #10bce7;padding-bottom: .25em; text-decoration: none;}
+
+.footer-heart a:hover{color:#6016a5; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;}
+
+.emoji{vertical-align: middle;}
